@@ -11,7 +11,7 @@ use ExtUtils::MakeMaker;
 # the contents of the Makefile that is written.
 
 my $PACKAGE    =  'JSON::minify';
-my $LIB_FILE   =  'lib/JSON_minify.pm';
+my $LIB_FILE   =  'lib/JSON/minify.pm';
    $LIB_FILE   =~ s!::!/!g;
 my $LOCAL_ADDR =  'remi';
 my $DOMAIN     =  'cohenscali.net';

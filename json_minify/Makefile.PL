@@ -10,8 +10,8 @@ use ExtUtils::MakeMaker;
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 
-my $PACKAGE    =  'JSON_minify';
-my $LIB_FILE   =  'lib/JSON_minify.pm';
+my $PACKAGE    =  'JSON::minify';
+my $LIB_FILE   =  'JSON::minify.pm';
    $LIB_FILE   =~ s!::!/!g;
 my $LOCAL_ADDR =  'remi';
 my $DOMAIN     =  'cohenscali.net';
